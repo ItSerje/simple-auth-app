@@ -1,7 +1,3 @@
-### General approach
-
-Keep it simple, simple, still organized
-
 ### Test users
 
 - Username: user1, Password: 123456
@@ -9,3 +5,5 @@ Keep it simple, simple, still organized
 - Username: user3, Password 345678
 
 Same list on [Airtable](https://airtable.com/shrvwW56tkDa3YOfB)
+
+[Apk](https://expo.dev/artifacts/eas/mpjYBHssJRxxvo7pboB5vD.apk)
