@@ -10,11 +10,13 @@ export default function App() {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   if (!isLoggedIn) {
-    <SafeAreaView style={styles.container}>
-      <View style={styles.formContainer}>
-        <LoginForm setIsLoggedIn={setIsLoggedIn} />
-      </View>
-    </SafeAreaView>;
+    return (
+      <SafeAreaView style={styles.container}>
+        <View style={styles.formContainer}>
+          <LoginForm setIsLoggedIn={setIsLoggedIn} />
+        </View>
+      </SafeAreaView>
+    );
   }
 
   return (
@@ -41,9 +43,8 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   btnContainer: {
-    alignItems: 'stretch',
+    alignSelf: 'stretch',
     padding: 15,
-    flexDirection: 'row',
   },
   webview: {
     height: '100%',
