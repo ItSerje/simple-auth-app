@@ -1,8 +1,8 @@
-##General approach
+### General approach
 
 Keep it simple, simple, still organized
 
-##Test users
+### Test users
 
 - Username: user1, Password: 123456
 - Username: user2, Password 234567
